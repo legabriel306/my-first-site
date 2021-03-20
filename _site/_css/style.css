@@ -1,5 +1,6 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
 
 * {
     margin: 0;
@@ -85,9 +86,121 @@ div.top-imagem  h1 {
 div.top-imagem  p {
     color: #f8f4e1;
     text-shadow: 4px 2px 3px #4e3620;
-    font-size: 15pt;
+    font-size: 25pt;
     opacity: 1;
+    font-family: 'Amatic SC', cursive;
 }
 
+
+/*sobre area*/
+article#sobre-cafe h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 30pt;
+}
+div.sobre-text {
+    display: flex;
+    justify-content: center;
+
+}
+p.text-sobre {
+    display: flex;
+    width: 500px;
+    height: 300px;
+    text-align: center;
+    color: #4e3620;
+    font-size: 18pt;
+    font-family: 'Cookie', cursive;
+    
+}
+
+div.sobre-imagem {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+}
+figure.image-sobre img{
+    border: 3px solid #897853;
+    width: 273px;
+    height: 184px;
+}
+
+figure.image-sobre img.first{
+    margin-right: -100px;
+    
+}
+figure.image-sobre img.second{
+    margin-left: -100px;
+}
+
+figure.image-sobre figcaption {
+    display: flex;
+    position: relative;
+    background-color: #4e3620;
+    justify-content: center;
+    margin-top: -30px;
+    padding-bottom: 4px;
+    padding-top: 4px;
+}
+
+
+figure.image-sobre figcaption p {
+    color: #f8f4e1;
+    font-size: 20pt;
+    font-family: 'Amatic SC', cursive;
+}
+
+/*produtos*/
+
+section#produtos {
+    display: flex;
+    background-color: #ff9978;
+    width: 100%;
+    height: 400px;
+    flex-wrap: wrap;
+}
+
+article#produtos-divs div.regiao{
+    display: flex;
+    justify-content: space-evenly;
+}
+div.regiao figure{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+    padding-top: 20px;
+ 
+}
+div.regiao img{
+    display: flex;
+    width: 80px;
+    height: 80px;
+ 
+
+   
+}
+div.regiao h2 {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding-top: 15px;
+}
+
+div.regiao p {
+    text-align: center;
+    height: 200px;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
+}
 
 

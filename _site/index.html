@@ -14,10 +14,10 @@
         </div>
         <div id="cabecalho">    
             <nav class="topo-menu">
-                    <a href="#">Sobre</a>
-                    <a href="#">Produtos</a>
-                    <a href="#">Portifólio</a>
-                    <a href="#">Contato</a>
+                    <a href="#sobre">Sobre</a>
+                    <a href="#produtos">Produtos</a>
+                    <a href="#locais">Locais</a>
+                    <a href="#contato">Contato</a>
             </nav>
         </div>
     </header>
@@ -31,42 +31,62 @@
     </section>
 
     
-    <section> 
-        <article>
+    <section id="sobre"> 
+        <article id="sobre-cafe">
             <h2>Uma mistura de</h2>
-            <div>
-                [ IMAGE HERE ]
-                [ legenda ] amor 
+            <div class="sobre-imagem">
+                <figure class="image-sobre">
+                    <img src="_images/cafe-amor02.jpg" alt="cafe amor 02" class="first">
+                    <figcaption class="fig-first">
+                        <p>amor</p> 
+                    </figcaption>
+                </figure> 
+                <figure class="image-sobre">
+                    <img src="_images/cafe-amor.jpg" alt="cafe amor 01" class="second">
+                    <figcaption class="fig-second">
+                        <p>Perfeição</p> 
+                    </figcaption>
+                </figure> 
             </div>
-            <div>
-                [ IMAGE HERE ]
-                [ legenda ] perfeição
-            </div> 
-            <p> O café é uma bebida produzida a partir dos grãos torrados do fruto do cafeeiro. É servido tradicionalmente quente, mas também pode ser consumido gelado. Ele é um estímulante, por possuir cafeína - geralmente 80 a 140 mg para cada 207 ml dependendo do método de preparação.</p>
-        </article>
-    </section>
-    <section>
-        <article>
-            <div>
-                [ IMAGE HERE ]
-                <h1>Paulista</h1>
-                <p>As condições climéaticas não eram as melhores nessa primeira escolha e, entre 1800 e 1850, tentou-se o cultivo em outras regiões: o João Alberto Castelo Branco trouxe mudas do Pará</p> 
+            <div class="sobre-text"> 
+                <p class="text-sobre"> O café é uma bebida produzida a partir dos grãos torrados do fruto do cafeeiro. É servido tradicionalmente quente, mas também pode ser consumido gelado. Ele é um estímulante, por possuir cafeína - geralmente 80 a 140 mg para cada 207 ml dependendo do método de preparação.</p>
             </div>
-            <div>
-                [ IMAGE HERE ]
-                <h2>Carioca</h2>
-                <p>As condições climéaticas não eram as melhores nessa primeira escolha e, entre 1800 e 1850, tentou-se o cultivo em outras regiões: o João Alberto Castelo Branco trouxe mudas do Pará</p> 
-            </div>
-            <div>
-                [ IMAGE HERE ]
-                <h1>Mineiro</h1> 
-                <p>As condições climéaticas não eram as melhores nessa primeira escolha e, entre 1800 e 1850, tentou-se o cultivo em outras regiões: o João Alberto Castelo Branco trouxe mudas do Pará</p> 
-            </div>
-            [button] saiba mais
         </article>
     </section>
 
+
+    <section id="produtos">
+        <article id="produtos-divs">
+            <div class="regiao">
+                <figure>
+                    <img src="_images/circulo01.png" alt="circulo 01">
+                    <h2>Paulista</h2>
+                    <p>As condições climéaticas não eram as melhores nessa primeira escolha e, entre 1800 e 1850, tentou-se o cultivo em outras regiões: o João Alberto Castelo Branco trouxe mudas do Pará</p> 
+                </figure>
+            <div class="regiao">
+                <figure>
+                    <img src="_images/circulo01.png" alt="circulo 01">
+                    <h2>Carioca</h2>
+                    <p>As condições climéaticas não eram as melhores nessa primeira escolha e, entre 1800 e 1850, tentou-se o cultivo em outras regiões: o João Alberto Castelo Branco trouxe mudas do Pará</p> 
+                </figure>
+            </div>
+            <div class="regiao">
+                <figure>
+                    <img src="_images/circulo01.png" alt="circulo 01">
+                    <h2>Mineiro</h2> 
+                    <p>As condições climéaticas não eram as melhores nessa primeira escolha e, entre 1800 e 1850, tentou-se o cultivo em outras regiões: o João Alberto Castelo Branco trouxe mudas do Pará</p> 
+                </figure>
+            </div>
+        </article>
+
+    </section>
     <section>
+        <div>
+            <p>[button] saiba mais</p>
+        </div>
+    </section>
+
+    <section id="locais">
         <article>
             <div>
                 [ IMAGE HERE ]
@@ -100,7 +120,8 @@
             </div>
         </article>
     </section>
-    <footer>
+   
+    <footer id="contato">
         <p> Assine nossa Newsletter
         promoções e eventos mensais</p>
 
