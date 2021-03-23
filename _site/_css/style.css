@@ -12,10 +12,10 @@
 }
 
 body {
-   background-color: #f8f4e1;
+   background-color: #f2edd7;
 } 
 
-/*Menu*/
+/*--------------------Menu------------------*/
 
 header#topo {
     background-color: #4e3620;
@@ -60,7 +60,7 @@ nav.topo-menu {
 
 }
 
-/*imagem de fundo*/
+/*-------------------------imagem de fundo--------------------------*/
 
 section#topo-imagem {
     width: 100%;
@@ -92,7 +92,7 @@ div.top-imagem  p {
 }
 
 
-/*sobre area*/
+/*----------------------sobre area--------------------------*/
 article#sobre-cafe h2 {
     display: flex;
     justify-content: center;
@@ -109,12 +109,12 @@ div.sobre-text {
 p.text-sobre {
     display: flex;
     width: 500px;
-    height: 300px;
+    height: auto;
     text-align: center;
     color: #4e3620;
     font-size: 18pt;
     font-family: 'Cookie', cursive;
-    
+    padding-bottom: 80px;
 }
 
 div.sobre-imagem {
@@ -156,17 +156,17 @@ figure.image-sobre figcaption p {
     font-family: 'Amatic SC', cursive;
 }
 
-/*produtos*/
+/*------------------------produtos----------------------------*/
 
 section#produtos {
     display: flex;
-    background-color: #ff9978;
+    background-color:#897853;
     width: 100%;
-    height: 400px;
+    height: auto;
     flex-wrap: wrap;
 }
 
-article#produtos-divs div.regiao{
+div.regiao{
     display: flex;
     justify-content: space-evenly;
 }
@@ -175,32 +175,133 @@ div.regiao figure{
     flex-direction: column;
     align-items: center;
     width: 100%;
-    height: 300px;
-    padding-top: 20px;
+    height: auto;
+    padding-top: 70px;
  
 }
 div.regiao img{
     display: flex;
     width: 80px;
-    height: 80px;
- 
-
-   
+    height: 80px;   
 }
 div.regiao h2 {
     display: flex;
     justify-content: space-evenly;
     text-align: center;
     padding-top: 15px;
+    color: #f2edd7;
+    font-family:  'Amatic SC', cursive;
+    font-size: 30pt;
+    text-decoration: double;
+    text-shadow: 2px 2px 1px #4e3620;
 }
 
 div.regiao p {
     text-align: center;
-    height: 200px;
+    height: auto;
     width: 100%;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
     padding-top: 15px;
+    font-family: 'Cookie', cursive;
+    font-size: 17pt;
+    color: #f2edd7;
+    text-shadow: 2px 2px 1px #4e3620;
+}
+
+div.botao-produtos {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+
+div.botao-produtos input{
+    width: 150px;
+    border: 3px solid #f2edd7;
+    background-color: rgba(242, 237, 215, 0.2);
+    color: #f2edd7;
+    font-family: 'Amatic SC', cursive;
+    text-shadow: 2px 1px 2px #4e3620;
+    font-size: 22pt;
+    height: 60px;
+}
+
+div.botao-produtos input:hover {
+    background-color: #f0a500;
+    color: #f2edd7;
+    border: none;
+    transition: 0.3s;
 }
 
 
+/*-------------------locais------------------*/
+
+div.local img {
+    width: 350px;
+    height: 250px;
+
+}
+
+div.local{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+div.local figure{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    padding-left: 50px;
+}
+
+div.local figure h2{
+    padding-left: 20px;
+    width: 300px;
+    font-family: 'Amatic SC', cursive;
+    color: #4e3620;
+    font-size: 35pt;
+}
+div.local figure p{
+    padding-left: 20px;
+    width: 300px;
+    font-family: 'Cookie', cursive;
+    font-size: 17pt;
+    height: auto;
+}
+div.local p a{
+    padding-left: 55px;
+    padding-bottom: 30px;
+}
+
+div.local p input {
+    width: 100px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 3px solid #f0a500;
+    color: #4e3620;
+    font-family: 'Amatic SC', cursive;
+    font-size: 19pt;
+}
+
+div.local p input:hover {
+    background-color: #f0a500;
+    color: #f2edd7;
+    transition: 0.3s;
+}
+
+
+
+/*-------------cabeçalho--------------*/
+
+footer#contato {
+    background-color: #4e3620;
+    width: 100%;
+    height: auto;
+}
