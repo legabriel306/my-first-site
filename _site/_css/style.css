@@ -18,6 +18,8 @@ body {
 /*--------------------Menu------------------*/
 
 header#topo {
+    width: 100%;
+    height: auto;
     background-color: #4e3620;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.9);
     position: relative;
@@ -164,11 +166,12 @@ section#produtos {
     width: 100%;
     height: auto;
     flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 div.regiao{
     display: flex;
-    justify-content: space-evenly;
+    
 }
 div.regiao figure{
     display: flex;
@@ -182,28 +185,39 @@ div.regiao figure{
 div.regiao img{
     display: flex;
     width: 80px;
-    height: 80px;   
+    height: 80px; 
+    
+    border-radius: 100%;
 }
+div.regiao img.primeira {
+    border: 5px double #e6d5b8;
+}
+div.regiao img.segunda {
+    border: 5px double #e6d5b8;
+}
+div.regiao img.terceira {
+    border: 5px double #e6d5b8;
+}
+
 div.regiao h2 {
     display: flex;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
     text-align: center;
     padding-top: 15px;
     color: #f2edd7;
     font-family:  'Amatic SC', cursive;
     font-size: 30pt;
-    text-decoration: double;
     text-shadow: 2px 2px 1px #4e3620;
 }
 
 div.regiao p {
     text-align: center;
     height: auto;
-    width: 100%;
-    padding-left: 100px;
-    padding-right: 100px;
+    width: 300px;
     padding-top: 15px;
     font-family: 'Cookie', cursive;
+    padding-left: 25px;
+    padding-right: 25px;
     font-size: 17pt;
     color: #f2edd7;
     text-shadow: 2px 2px 1px #4e3620;
@@ -239,10 +253,14 @@ div.botao-produtos input:hover {
 
 /*-------------------locais------------------*/
 
+section {
+    width: 100%;
+    height: 100%;
+}
 div.local img {
     width: 350px;
     height: 250px;
-
+    border: 2px solid #4e3620;
 }
 
 div.local{
@@ -301,7 +319,66 @@ div.local p input:hover {
 /*-------------cabeçalho--------------*/
 
 footer#contato {
-    background-color: #4e3620;
     width: 100%;
     height: auto;
+}
+
+footer#contato div.email{
+    display: flex;
+    justify-content: flex-start;
+    padding: 25px 100px 25px 100px;
+    background-color: #897853; 
+}
+
+div.email p {
+    color: #f2edd7;
+    font-family: 'Amatic SC', cursive;
+    font-size: 20pt;
+
+}
+div.email input#iEmail{
+    background-color: #f2edd7;
+    width: 300px;
+    height: 30px;
+    font-size: 20pt;
+    font-family: 'Amatic SC', cursive;
+    text-indent: 20px;
+}
+
+input#iEmail::placeholder {
+    font-family: 'Amatic SC', cursive;
+    font-size: 15pt;
+}
+
+div.email input#botao{
+    background-color: transparent;
+    height: 30px;
+    width: 70px;
+    font-size: 18.2pt;
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    align-items: center;
+    color: #f2edd7;
+}
+div.email input#botao:hover {
+    background-color: #f0a500;
+    border: none;
+    color: #4e3620;
+    transition: 0.2s;
+}
+
+
+footer#contato div.texto-final {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #4e3620;
+}
+
+div.texto-final p {
+    padding-bottom: 15px;
+    padding-top: 15px;
+    color: #f8f4e1;
+    font-family: 'Amatic SC', cursive;
+    font-size: 14pt;
 }
