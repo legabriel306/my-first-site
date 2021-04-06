@@ -1,0 +1,86 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
+footer#contato {
+    width: 100%;
+    height: auto;
+}
+
+footer#contato div.email{
+    display: flex;
+    justify-content: flex-start;
+    padding: 25px 100px 25px 100px;
+    background-color: #897853; 
+}
+
+div.email p {
+    color: #f2edd7;
+    font-family: 'Amatic SC', cursive;
+    font-size: 20pt;
+
+}
+div.email input#iEmail{
+    background-color: #f2edd7;
+    width: 300px;
+    height: 30px;
+    font-size: 20pt;
+    font-family: 'Amatic SC', cursive;
+    text-indent: 20px;
+}
+
+input#iEmail::placeholder {
+    font-family: 'Amatic SC', cursive;
+    font-size: 15pt;
+}
+
+div.email input#botao{
+    background-color: transparent;
+    height: 30px;
+    width: 70px;
+    font-size: 18.2pt;
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    align-items: center;
+    color: #f2edd7;
+}
+div.email input#botao:hover {
+    background-color: #f0a500;
+    border: none;
+    color: #4e3620;
+    transition: 0.2s;
+}
+
+
+footer#contato div.texto-final {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #4e3620;
+}
+
+div.texto-final p {
+    padding-bottom: 15px;
+    padding-top: 15px;
+    color: #f8f4e1;
+    font-family: 'Amatic SC', cursive;
+    font-size: 14pt;
+}
+
+
+@media screen and (max-width: 768px) and (min-width: 480px) {
+    footer#contato div.email{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding: 0px;
+    }
+}
+
+@media screen and (max-width: 480px) and (min-width: 320px) {
+    footer#contato div.email{
+        display: flex;
+        justify-content: row;
+        padding: 0px;
+    }
+}

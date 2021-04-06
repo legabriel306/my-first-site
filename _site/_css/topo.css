@@ -1,0 +1,69 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
+section#topo-imagem {
+    width: 100%;
+    height: 500px;
+}
+div.top-imagem {
+    display: flex;
+    background-image: url("../_images/topo-cabecalho.jpg") ;
+    width: 100%;
+    height: 500px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.top-imagem  h1 {
+    color: #f8f4e1;
+    text-shadow: 4px 2px #4e3620;
+    font-family: 'Cookie', cursive;
+    font-size: 30pt;
+}
+div.top-imagem  p {
+    color: #f8f4e1;
+    text-shadow: 4px 2px 3px #4e3620;
+    font-size: 25pt;
+    opacity: 1;
+    font-family: 'Amatic SC', cursive;
+}
+
+
+@media screen and (max-width: 768px) and (min-width: 480px){
+    section#topo-imagem {
+        width: 100%;
+        height: 500px;
+    }
+
+    div.top-imagem {
+        display: flex;
+        background-image: url("../_images/topo-cabecalho.jpg");
+        background-size: cover;
+        width: 100%;
+        height: 500px;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 480px) and (min-width: 320px){
+    section#topo-imagem {
+        width: 100%;
+        height: 500px;
+    }
+
+    div.top-imagem {
+        display: flex;
+        background-image: url("../_images/topo-cabecalho.jpg");
+        background-size: cover;
+        width: auto;
+        height: 500px;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+

@@ -1,0 +1,60 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
+header#topo {
+    display: block;
+    width: 100%;
+    height: auto;
+    background-color: #4e3620;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.9);
+    position: fixed;
+}
+p.icone-principal {
+    display: block;
+
+    justify-content: flex-start;
+    flex-direction: row;
+    color: #f8f4e1;
+    font-size: 25pt;
+    padding-left: 20px;
+    padding-top: 20px;
+    margin-bottom: -25px;
+}
+p.icone-principal a{
+    color: #f8f4e1;
+    text-decoration: solid;
+    font-family: 'Cookie', cursive;
+    font-size: 30pt;
+}
+p.icone-principal a:hove{
+    text-decoration: none;
+}
+nav.topo-menu a {
+    text-decoration: solid;
+    color: #f8f4e1; 
+    padding-right: 50px;
+    padding-bottom: 10px;
+}
+nav.topo-menu a:hover {
+    text-decoration: underline;
+}
+nav.topo-menu {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding-bottom: 20px;
+    padding-top: 0px;
+    font-size: 12pt;
+
+}
+
+@media screen and (max-width: 768px) and (min-width: 480px) {
+    header#topo {
+        width: 100%;
+        height: auto;
+        background-color: #4e3620;
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.9);
+        position: relative;
+    }
+}

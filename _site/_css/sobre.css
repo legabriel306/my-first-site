@@ -1,0 +1,169 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
+section#sobre {
+    height: auto;
+    width: auto;
+}
+article#sobre-cafe h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 30pt;
+    margin: 75px 0px 25px 0px;
+}
+div.sobre-text {
+    display: flex;
+    justify-content: center;
+}
+p.text-sobre {
+    display: flex;
+    width: 500px;
+    height: auto;
+    text-align: center;
+    color: #4e3620;
+    font-size: 18pt;
+    font-family: 'Cookie', cursive;
+    padding-bottom: 80px;
+}
+
+div.sobre-imagem {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+}
+
+figure.image-sobre img{
+    border: 3px solid #897853;
+    width: 273px;
+    height: 184px;
+}
+
+
+figure.image-sobre figcaption {
+    background-color: #4e3620;
+    text-align: center;
+    text-underline-position: above;
+    margin-top: -25px;
+    width: 150px;
+}
+
+
+figure.image-sobre figcaption p {
+    color: #f8f4e1;
+    font-size: 20pt;
+    font-family: 'Amatic SC', cursive;
+}
+
+@media screen and (max-width: 768px) and (min-width: 480px){
+    figure.image-sobre img{
+        border: 3px solid #897853;
+        width: 400px;
+        height: 250px;
+    }
+    article#sobre-cafe h2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 25px;
+        font-family: 'Amatic SC', cursive;
+        font-size: 30pt;
+        margin: 75px 0px 25px 0px;
+        padding-bottom: 100px;
+    }
+
+    div.sobre-imagem {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 300px;
+        margin: 75px 0px 75px 0px;
+    }
+    p.text-sobre {
+        display: flex;
+        width: auto;
+        height: auto;
+        text-align: center;
+        color: #4e3620;
+        font-size: 25pt;
+        font-family: 'Cookie', cursive;
+        margin: 80px 15px 80px 15px;
+    }
+
+    figure.image-sobre figcaption {
+        display: flex;
+        object-position: -50%;
+        background-color: #4e3620;
+        justify-content: center;
+        width: 200px;
+    }
+    
+    
+    figure.image-sobre figcaption p {
+        color: #f8f4e1;
+        font-size: 30pt;
+        font-family: 'Amatic SC', cursive;
+    }
+    
+}
+
+@media screen and (max-width: 480px) and (min-width: 320px){
+    figure.image-sobre img{
+        border: 3px solid #897853;
+        width: 400px;
+        height: 250px;
+    }
+    article#sobre-cafe h2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 25px;
+        font-family: 'Amatic SC', cursive;
+        font-size: 30pt;
+        margin: 75px 0px 25px 0px;
+        padding-bottom: 100px;
+    }
+
+    div.sobre-imagem {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 300px;
+        margin: 75px 0px 75px 0px;
+    }
+    p.text-sobre {
+        display: flex;
+        width: auto;
+        height: auto;
+        text-align: center;
+        color: #4e3620;
+        font-size: 25pt;
+        font-family: 'Cookie', cursive;
+        margin: 80px 15px 80px 15px;
+    }
+
+    figure.image-sobre figcaption {
+        display: flex;
+        position: relative;
+        background-color: #4e3620;
+        justify-content: center;
+        transform: translatey(-50%);
+        width: 200px;
+    }
+    
+    
+    figure.image-sobre figcaption p {
+        color: #f8f4e1;
+        font-size: 30pt;
+        font-family: 'Amatic SC', cursive;
+    }
+    
+}
