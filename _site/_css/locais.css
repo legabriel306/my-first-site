@@ -74,19 +74,26 @@ div.local p input:hover {
         margin-right: auto;
         flex-direction: column;
         padding-left: 0px;
+
     }
     div.local figure h2{
         margin-left: auto;
         margin-right: auto;
         font-size: 35pt;
         text-align: center;
-
+        margin-top: 15px;
+        margin-bottom: 15px;
+        margin-left: auto;
+        margin-right: auto;
     }
     div.local figure p{
         text-align: center;
         font-family: 'Cookie', cursive;
         font-size: 17pt;
         height: auto;
+        margin-bottom: 15px;
+        margin-left: auto;
+        margin-right: auto;
     }
     div.local img {
         margin-left: auto;
@@ -116,12 +123,14 @@ div.local p input:hover {
         margin-right: auto;
         font-size: 35pt;
         text-align: center;
-
+        margin-top: 15px;
+        margin-bottom: 15px;
     }
     div.local figure p{
         text-align: center;
         font-family: 'Cookie', cursive;
         font-size: 17pt;
+        margin-bottom: 15px;
         height: auto;
     }
     div.local img {

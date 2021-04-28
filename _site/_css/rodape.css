@@ -73,7 +73,7 @@ div.texto-final p {
         display: flex;
         justify-content: center;
         text-align: center;
-        padding: 0px;
+        padding: 0px 15px 0px 15px;
     }
 }
 
@@ -81,6 +81,6 @@ div.texto-final p {
     footer#contato div.email{
         display: flex;
         justify-content: row;
-        padding: 0px;
+        padding: 0px 0px 0px 15px;
     }
 }

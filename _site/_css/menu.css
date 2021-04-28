@@ -3,7 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
 
 header#topo {
-    display: block;
     width: 100%;
     height: auto;
     background-color: #4e3620;
@@ -11,7 +10,6 @@ header#topo {
     position: fixed;
 }
 p.icone-principal {
-    display: block;
 
     justify-content: flex-start;
     flex-direction: row;
@@ -55,6 +53,16 @@ nav.topo-menu {
         height: auto;
         background-color: #4e3620;
         box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.9);
-        position: relative;
+        position: fixed;
+    }
+}
+
+@media screen and (max-width: 480px) and (min-width: 320px) {
+    header#topo {
+        width: 100%;
+        height: auto;
+        background-color: #4e3620;
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.9);
+        position: fixed;
     }
 }
