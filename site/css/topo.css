@@ -1,69 +1,35 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
-
-section#topo-imagem {
-    width: 100%;
-    height: 500px;
-}
-div.top-imagem {
-    display: flex;
-    background-image: url("../_images/topo-cabecalho.jpg") ;
-    width: 100%;
-    height: 500px;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+:root{
+    --fonte-Destaque: 'Cookie', cursive;
+    --cor01: #e7e5d8;
+    --cor02: #d6d4c8;
+    --cor03: #464646;
 }
 
-div.top-imagem  h1 {
-    color: #f8f4e1;
-    text-shadow: 4px 2px #4e3620;
-    font-family: 'Cookie', cursive;
-    font-size: 30pt;
+.topo{
+    background: #000;
+    height: 42vh;
 }
-div.top-imagem  p {
-    color: #f8f4e1;
-    text-shadow: 4px 2px 3px #4e3620;
-    font-size: 25pt;
-    opacity: 1;
-    font-family: 'Amatic SC', cursive;
+.topo h1{
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 10px;
 }
-
-
-@media screen and (max-width: 768px) and (min-width: 480px){
-    section#topo-imagem {
-        width: 100%;
-        height: 500px;
-    }
-
-    div.top-imagem {
-        display: flex;
-        background-image: url("../_images/topo-cabecalho.jpg");
-        background-size: cover;
-        width: 100%;
-        height: 500px;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-    }
+.topo p{
+    color: #fff;
+    text-align: center;
+    padding-bottom: 100px;
+    padding-top: 10px;
 }
-
-@media screen and (max-width: 480px) and (min-width: 320px){
-    section#topo-imagem {
-        width: 100%;
-        height: 500px;
-    }
-
-    div.top-imagem {
-        display: flex;
-        background-image: url("../_images/topo-cabecalho.jpg");
-        background-size: cover;
-        width: auto;
-        height: 500px;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-    }
+.linha {
+    background-color: #fff;
+    width: 10px;
+    height: 5px;
+    border-radius: 5px;
+    margin: auto;
 }
-
