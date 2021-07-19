@@ -9,7 +9,8 @@
 }
 
 .topo{
-    background: #000;
+    background: url('../images/background-fot-modificado.png') no-repeat;
+    background-size: ;
     height: 42vh;
 }
 .topo h1{
