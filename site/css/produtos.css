@@ -7,3 +7,8 @@
     --cor02: #d6d4c8;
     --cor03: #464646;
 }
+
+.produtos {
+    background-color: var(--cor01);
+    
+}

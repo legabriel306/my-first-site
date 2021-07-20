@@ -10,5 +10,22 @@
 }
 
 .sobre{
-    background-color: var(--cor01);
+    padding: 50px 10px;
+    background-color: #fff;
+}
+.sobre h2{
+    color: var(--cor03);
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.img-sobre{
+    text-align: center;
+}
+
+.sobre p{
+    margin: 1em auto;
+    max-width: 500px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
