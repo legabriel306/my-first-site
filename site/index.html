@@ -24,9 +24,9 @@
             </div>
             <ul class="nav-list">
                 <li><a href="#sobre">Sobre</a></li>
-                <li><a href="">Produtos</a></li>
-                <li><a href="">Locais</a></li>
-                <li><a href="">Contato</a></li>
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#locais">Locais</a></li>
+                <li><a href="#contato">Contato</a></li>
             </ul>
         </nav>
     </header>
@@ -42,39 +42,89 @@
         <article class="sobre" id="sobre">
             <h2>Uma mistura de...</h2>
             <div class="img-sobre">
-                <img src="" alt="">
-                amor
-                <img src="" alt="">
-                Perfeição
+                <figure>
+                    <img src="images/cafe-amor02.jpg" alt="Xicara de cafè">
+                    <figcaption>
+                        Amor
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="images/cafe-amor.jpg" alt="Xícara de café">
+                    <figcaption>
+                        Perfeição
+                    </figcaption>
+                </figure>
             </div>
             <p>
                 O café é uma bebida produzida a partir dos grãos torrados do fruto do cafeeiro. É servido tradicionalmente quente, mas também pode ser consumido gelado. Ele é um estímulante, por possuir cafeína - geralmente 80 a 140 mg para cada 207 ml dependendo do método de preparação.
             </p>
         </article>
-        <article class="produtos">
-            Paulista
-            <p>As condições climéaticas não eram as melhores nessa primeira escolha e, entre 1800 e 1850, tentou-se o cultivo em outras regiões: o João Alberto Castelo Branco trouxe mudas do Pará</p>
-            Carioca
-            <p>As condições climéaticas não eram as melhores nessa primeira escolha e, entre 1800 e 1850, tentou-se o cultivo em outras regiões: o João Alberto Castelo Branco trouxe mudas do Pará</p>
-            Mineiro
-            <p>As condições climéaticas não eram as melhores nessa primeira escolha e, entre 1800 e 1850, tentou-se o cultivo em outras regiões: o João Alberto Castelo Branco trouxe mudas do Pará</p>
+        <article class="produtos" id="produtos">
+            <section class="conteudo">
+                <section class="part">
+                    <div class="bola01"></div>
+                    <h2>Paulista</h2>
+                    <p>As condições climéaticas não eram as melhores nessa primeira escolha e, entre 1800 e 1850, tentou-se o cultivo em outras regiões: o João Alberto Castelo Branco trouxe mudas do Pará</p>
+                </section>
+                <section class="part">
+                    <div class="bola02"></div>
+                    <h2>Carioca</h2>
+                    <p>As condições climéaticas não eram as melhores nessa primeira escolha e, entre 1800 e 1850, tentou-se o cultivo em outras regiões: o João Alberto Castelo Branco trouxe mudas do Pará</p>
+                </section>
+                <section class="part">
+                    <div class="bola03"></div>
+                    <h2>Mineiro</h2>
+                    <p>As condições climéaticas não eram as melhores nessa primeira escolha e, entre 1800 e 1850, tentou-se o cultivo em outras regiões: o João Alberto Castelo Branco trouxe mudas do Pará</p>
+                </section>
+            </section>
+            <section class="botao">
+                <input type="button" id="btn" value="Saiba Mais">
+            </section>
         </article>
-        <article>
-            Ribeirão Preto
-            <p>As condições climéaticas não eram as melhores nessa primeira escolha e, entre 1800 e 1850, tentou-se o cultivo em outras regiões: o João Alberto Castelo Branco trouxe mudas do Pará</p>
-            Cravinhos
-            <p>As condições climéaticas não eram as melhores nessa primeira escolha e, entre 1800 e 1850, tentou-se o cultivo em outras regiões: o João Alberto Castelo Branco trouxe mudas do Pará</p>
-            São Paulo
-            <p>As condições climéaticas não eram as melhores nessa primeira escolha e, entre 1800 e 1850, tentou-se o cultivo em outras regiões: o João Alberto Castelo Branco trouxe mudas do Pará</p>
+        <article class="locais" id="locais">
+            <section class="localizacao">
+                <img src="images/coffee-shop01.jpeg" alt="Cafeteria">
+                <div class="text">
+                    <h2>Ribeirão Preto</h2>
+                    <p>As condições climéaticas não eram as melhores nessa primeira escolha e, entre 1800 e 1850, tentou-se o cultivo em outras regiões: o João Alberto Castelo Branco trouxe mudas do Pará</p>
+                    <input type="button" id="btn" value="Ver Mapa">
+                </div>
+            </section>
+            <section class="localizacao">
+                <img src="images/coffee-shop02.jpg" alt="Cafeteria">
+                <div class="text">
+                    <h2>Cravinhos</h2>
+                    <p>As condições climéaticas não eram as melhores nessa primeira escolha e, entre 1800 e 1850, tentou-se o cultivo em outras regiões: o João Alberto Castelo Branco trouxe mudas do Pará</p>
+                    <input type="button" id="btn" value="Ver Mapa">
+                </div>
+            </section>
+            <section class="localizacao">
+                <img src="images/coffee-shop03.jpg" alt="Cafeteria">
+                <div class="text">
+                    <h2>São Paulo</h2>
+                    <p>As condições climéaticas não eram as melhores nessa primeira escolha e, entre 1800 e 1850, tentou-se o cultivo em outras regiões: o João Alberto Castelo Branco trouxe mudas do Pará</p>
+                    <input type="button" id="btn" value="Ver Mapa">
+                </div>
+            </section>
         </article>
         
     </main>
-    Assine nossa Newsletter
-    promoções e eventos mensais
-    
-
     <footer>
-        <p>This is a project made by a Brazilian student, who is learning HTML and CCS , inspired by this image</p>
+        <section id="contato" class="contato">
+            <div class="promocao"> 
+                <h2>
+                    <label for="email">Assine nossa Newsletter </label>
+                </h2>
+                <p>promoções e eventos mensais</p>
+            </div>
+            <div class="email">
+                <input type="email" name="email" id="email" placeholder="digite seu e-mail"><input type="button" id="enviar" value="ENVIAR">
+            </div>
+        </section>
+        <section class="rodape">
+            <p>This is a project made by a Brazilian student, who is learning HTML and CCS,<br> inspired by this image</p>
+            <p><a href="#" class="logo">LeCafé</a></p>
+        </section>
     </footer>
     <script src="js/functions.js"></script>
 </body>

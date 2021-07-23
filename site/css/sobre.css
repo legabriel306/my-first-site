@@ -1,9 +1,10 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
 
 :root{
     --fonte-Destaque: 'Cookie', cursive;
+    --fonte-serifada: 'Cinzel', serif;
     --cor01: #e7e5d8;
     --cor02: #d6d4c8;
     --cor03: #464646;
@@ -16,11 +17,36 @@
 .sobre h2{
     color: var(--cor03);
     text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: var(--fonte-serifada);
 }
 
 .img-sobre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+}
+.img-sobre img{
+    margin: 0em;
+    padding: 0em;
+    border: 2px solid var(--cor03);
+}
+.img-sobre figure{
+    max-width: 15em;
+    margin: 1.3em;
+}
+.img-sobre figcaption{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
+    width: 5em;
+    height: 1.5em;
+    background-color: var(--cor03);
+    color: #fff;
+    transform: translate(0, -60%);
+    font-size: 2em;
+    font-family: var(--fonte-Destaque);
 }
 
 .sobre p{
@@ -28,4 +54,10 @@
     max-width: 500px;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+@media (max-width: 999px){
+    .img-sobre{
+        flex-direction: column;
+    }
 }

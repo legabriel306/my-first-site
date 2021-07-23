@@ -1,14 +1,87 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
 :root{
     --fonte-Destaque: 'Cookie', cursive;
+    --fonte-serifada: 'Cinzel', serif;
     --cor01: #e7e5d8;
     --cor02: #d6d4c8;
     --cor03: #464646;
+
+    --cor-bola01: #492902;
+    --cor-bola02: #c2713a;
+    --cor-bola03: #d7a54e;
 }
 
 .produtos {
     background-color: var(--cor01);
-    
+    padding: 1em 5em;
+}
+.conteudo{
+    display: flex;
+    justify-content: center;
+}
+.part{
+    width: 20em;
+    text-align: center;
+    margin: auto;
+    padding: 1em;
+}
+.part h2{
+    font-family: var(--fonte-serifada);
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.part p{
+    font-size: 0.8em;
+}
+.bola01, .bola02, .bola03 {
+    margin: 1em auto;
+    width: 3.5em;
+    height: 3.5em;
+    border-radius: 50%;
+    padding: 10px;
+    border: 10px double var(--cor01);
+}
+.bola01{
+    background-color: var(--cor-bola01);
+}
+.bola02{
+    background-color: var(--cor-bola02);
+}
+.bola03{
+    background-color: var(--cor-bola03);
+}
+.botao{
+    display: flex;
+    margin: 2em 0;
+    align-content: center;
+    justify-content: center;
+}
+#btn{
+    background-color: transparent;
+    border: 2px solid var(--cor03);
+    width: 10em;
+    height: 3em;
+    cursor: pointer;
+    color: var(--cor03);
+    font-size: 1em;
+    font-weight: bold;
+    font-family: var(--fonte-serifada);
+    transition: 0.3s;
+}
+#btn:hover{
+    background-color: var(--cor03);
+    color: var(--cor01);
+}
+
+
+@media (max-width: 999px) {
+    .produtos {
+        padding: 1em 0.5em;
+    }
+    .conteudo{
+        justify-content: center;
+        flex-direction: column;
+    }
 }

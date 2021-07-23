@@ -1,9 +1,70 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
 :root{
     --fonte-Destaque: 'Cookie', cursive;
+    --fonte-serifada: 'Cinzel', serif;
     --cor01: #e7e5d8;
     --cor02: #d6d4c8;
     --cor03: #464646;
+}
+.contato{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: var(--cor01);
+    min-height: 15vh;
+    padding: 0.3em;
+
+} .contato > h2{
+    font-family: var(--fonte-serifada);
+}
+.rodape{
+    display: flex;
+    justify-content: space-evenly;
+    min-height: 15vh;
+    align-items: center;
+    background-color: var(--cor02);
+    font-size: 1em;
+    padding: 0.3em;
+}
+.promocao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 30em;
+}
+.promocao > label{
+    font-family: var(--fonte-serifada);
+}
+.email{
+    display: flex;
+    align-self: center;
+}
+#email{
+    font-family: var(--fonte-serifada);
+    height: 2.3em;
+    width: 20em;
+    background-color: transparent;
+    border: 2px solid var(--cor03);
+    text-indent: 1em;
+}
+#enviar{
+    font-family: var(--fonte-serifada);
+    width: 5em;
+    background-color: var(--cor03);
+    color: var(--cor01);
+    border: 2px solid var(--cor03);
+    cursor: pointer;
+    transition: 0.3s;
+}
+#enviar:hover{
+    background-color: var(--cor02);
+    color: var(--cor03);
+}
+
+@media (max-width: 999px){
+    .contato, .rodape{
+        flex-direction: column;
+    }
 }
