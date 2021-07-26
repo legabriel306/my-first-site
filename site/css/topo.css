@@ -1,9 +1,12 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Playfair+Display:wght@400;700&family=Prata&family=Roboto&display=swap');
+
+
+
 :root{
     --fonte-Destaque: 'Cookie', cursive;
-    --fonte-serifada: 'Cinzel', serif;
+    --fonte-serifada: 'Playfair Display', 'Prata', serif;
+    --fonte-texto: 'Roboto', Arial, sans-serif;
     --cor01: #e7e5d8;
     --cor02: #d6d4c8;
     --cor03: #464646;
@@ -21,7 +24,7 @@
 .topo h1{
     color: #fff;
     font-family: var(--fonte-serifada);
-    font-weight: 400;
+    font-weight: bold;
     text-align: center;
     margin: auto;
     padding-top: 100px;
@@ -32,6 +35,7 @@
     text-align: center;
     padding-bottom: 100px;
     padding-top: 10px;
+    font-family: var(--fonte-texto);
 }
 .linha {
     background-color: #fff;

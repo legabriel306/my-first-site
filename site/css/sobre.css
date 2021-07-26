@@ -1,10 +1,10 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Playfair+Display:wght@400;700&family=Prata&family=Roboto&display=swap');
 
 :root{
     --fonte-Destaque: 'Cookie', cursive;
-    --fonte-serifada: 'Cinzel', serif;
+    --fonte-serifada: 'Playfair Display', 'Prata', serif;
+    --fonte-texto: 'Roboto', Arial, sans-serif;
     --cor01: #e7e5d8;
     --cor02: #d6d4c8;
     --cor03: #464646;
@@ -18,6 +18,7 @@
     color: var(--cor03);
     text-align: center;
     font-family: var(--fonte-serifada);
+    font-weight: bold;
 }
 
 .img-sobre{
@@ -53,7 +54,7 @@
     margin: 1em auto;
     max-width: 500px;
     text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: var(--fonte-texto);
 }
 
 @media (max-width: 999px){
