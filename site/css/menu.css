@@ -10,7 +10,7 @@
 }
 
 a{
-    font-family: var(--fonte-serifada);
+    font-family: var(--fonte-texto);
     color: #fff;
     text-decoration: none;
     transition: 0.3s;
